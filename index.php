@@ -7,7 +7,7 @@
                 $name = "Scotty";
 
                 if($name = "scotty"){
-                    print "Keep that muffin upright!";
+                    print "Keep that muffin upright! <br>";
                 }
                 else{
                     print"go away!!";
