@@ -3,6 +3,7 @@
 <head>
 </head>
 <body>
+<!--BASIC PHP-->
 <p>
     <?php
     $name = "Scotty";
@@ -15,7 +16,7 @@
     }
     ?>
 </p>
-
+<!--SWITCHES-->
 <b>
     <?php
     $numberOfHobbits = 2;
@@ -34,7 +35,7 @@
     }
     ?>
 </b>
-
+<!--ARRAY PRACTICE-->
 <b>
     <?php
     $provisionedActivity = array("specs", "drugs", "rock", "roll");//Declaring the array
@@ -52,7 +53,7 @@
     }
 
     ?>
-
 </b>
+
 </body>
 </html>
