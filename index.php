@@ -51,9 +51,16 @@
     foreach ($provisionedActivity as $x) {
         print "<p>$x</p>";
     }
-
     ?>
 </b>
-
+<!--LOOP PRACTICE-->
+<b>
+    <?php
+        for ($i = 1; $i < 10; $i++)
+        {
+            echo "<p>Hello!</p>";
+        }
+    ?>
+</b>
 </body>
 </html>
