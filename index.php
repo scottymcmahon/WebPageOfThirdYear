@@ -3,15 +3,13 @@
         <head>
         </head>
         <body>
-            <p>
             <?php
             echo "Hello," . " " . "world" . "!";
-            break;
+
             echo 5*7;
             $myname = "Frodo Baggins";
             $myage = 111;
             echo "My name is" . $myname . "and I am " . $myage;
             ?>
-            </p>
         </body>
     </html>
