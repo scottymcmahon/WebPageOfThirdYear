@@ -8,6 +8,7 @@
 
                 if($name = "scotty"){
                     print "Keep that muffin upright! <br>";
+                    print "fdgrgrggbfbgrv";
                 }
                 else{
                     print"go away!!";
