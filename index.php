@@ -37,17 +37,20 @@
 
 <b>
     <?php
-    $provisionedActivity = array("specs", "drugs", "rock and roll");//Declaring the array
+    $provisionedActivity = array("specs", "drugs", "rock", "roll");//Declaring the array
 
     foreach ($provisionedActivity as $x) {
         print "<p>$x</p>";
     }
 
-    foreach ($provisionedActivity as $x){
-        if ($x = "drugs"){
-            
-        }
+    $provisionedActivity[1] = "hugs";
+
+    unset($provisionedActivity[3]);
+
+    foreach ($provisionedActivity as $x) {
+        print "<p>$x</p>";
     }
+
     ?>
 
 </b>
