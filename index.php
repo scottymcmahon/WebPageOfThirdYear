@@ -42,6 +42,12 @@
     foreach ($provisionedActivity as $x) {
         print "<p>$x</p>";
     }
+
+    foreach ($provisionedActivity as $x){
+        if ($x = "drugs"){
+            
+        }
+    }
     ?>
 
 </b>
