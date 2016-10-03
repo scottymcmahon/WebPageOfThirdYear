@@ -4,11 +4,14 @@
         </head>
         <body>
             <?php
-            echo "Hello," . " " . "world" . "!"."\n";
-            echo 5*7;
-            $myname = "Frodo Baggins";
-            $myage = 111;
-            echo "My name is" . $myname . "and I am " . $myage;
+                $name = "Scotty";
+
+                if($name = "scotty"){
+                    print "Keep that muffin upright!";
+                }
+                else{
+                    print"go away!!";
+                }
             ?>
         </body>
     </html>
