@@ -6,8 +6,8 @@
             <p>
             <?php
             echo "Hello," . " " . "world" . "!";
+            break;
             echo 5*7;
-            echo "\n";
             $myname = "Frodo Baggins";
             $myage = 111;
             echo "My name is" . $myname . "and I am " . $myage;
