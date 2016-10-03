@@ -51,6 +51,9 @@
     foreach ($provisionedActivity as $x) {
         print "<p>$x</p>";
     }
+    foreach($provisionedActivity as $x) {
+        print "<p>$x</p>";
+    }
     ?>
 </b>
 <!--LOOP PRACTICE-->
@@ -60,6 +63,8 @@
         {
             echo "<p>Hello!</p>";
         }
+
+
     ?>
 </b>
 </body>
