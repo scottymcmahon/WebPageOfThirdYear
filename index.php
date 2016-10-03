@@ -4,8 +4,7 @@
         </head>
         <body>
             <?php
-            echo "Hello," . " " . "world" . "!";
-
+            echo "Hello," . " " . "world" . "!"."\r\n";
             echo 5*7;
             $myname = "Frodo Baggins";
             $myage = 111;
