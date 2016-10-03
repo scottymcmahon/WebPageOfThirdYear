@@ -17,7 +17,7 @@
                 ?>
             </p>
 
-            <a4>
+            <b>
                 <?php
                     $numberOfHobbits = 2;
                     switch ($numberOfHobbits) {
@@ -34,6 +34,6 @@
                             echo "All the hobbits have gone home";
                 }
                 ?>
-            </a4>
+            </b>
         </body>
     </html>
